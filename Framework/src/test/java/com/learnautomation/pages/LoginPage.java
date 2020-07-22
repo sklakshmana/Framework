@@ -7,14 +7,12 @@ import org.openqa.selenium.support.FindBy;
 public class LoginPage {
 	
 	//This is Changes from Lakshman
-	
 	WebDriver driver;
 	
 	public LoginPage(WebDriver ldriver)
 	{
 		this.driver=ldriver;
 	}
-	
 	@FindBy(name="username") WebElement username;
 	
 	@FindBy(name="password") WebElement password;
